@@ -83,7 +83,7 @@ function displayCatchphrases() {
         const catchPhraseEl = document.createElement('p');
 
         catchPhraseEl.textContent = catchPhrase;
-        catchPhraseEl.classList.add('catchPhrase');
+        catchPhraseEl.classList.add('catchphrase');
         catchphrasesEl.append(catchPhraseEl);
     }
     // and for each catchphrase
